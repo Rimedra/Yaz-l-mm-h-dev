@@ -5,7 +5,7 @@ import sudoku.solve as solve
 
 ERROR01 = 'hata: islem belirtilmedi'
 ERROR02 = 'hata: girilen parametreler bir sozluk degil'
-ERROR03 = 'hata: geçerli bir islem degil'
+ERROR03 = 'hata: gecerli bir islem degil'
 STATUS = 'status'
 OP = 'op'
 OPS = {
