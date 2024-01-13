@@ -1,5 +1,3 @@
-
-
 import json
 import hashlib
 import math
@@ -31,13 +29,3 @@ def _isSolved(grid):
             gridIsSolved = True 
             return gridIsSolved
     return gridIsSolved
-
-
-
-
-
-
-
-
-
-
