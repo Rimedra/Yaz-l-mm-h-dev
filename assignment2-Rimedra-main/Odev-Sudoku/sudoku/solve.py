@@ -1,4 +1,3 @@
-
 import json
 import hashlib
 import math
@@ -12,7 +11,7 @@ def _solve(parms):
         result['status'] = 'hata: eksik integrity'
         return result
     if (not(_isValidGrid(parms['grid']))):
-        result['status'] = 'hata: yanlıs grid'
+        result['status'] = 'hata: yanlÄ±s grid'
         return result
   
     suggestedArray = _suggestSolution(parms['grid'])
@@ -44,10 +43,3 @@ def _isCompleted(grid):
             isCompleted = False 
             return isCompleted
     return isCompleted
-
-
-
-
-
-
-
